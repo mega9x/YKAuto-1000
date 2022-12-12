@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fAtP8/QK9rdQ532GMeCl6uIh6J2Ec56ZsQopB6mr9s43o0RsFuzwo6p2kcctZQnneiHN8rziirulBmroIriWNA==",
+  "success": true,
+  "projectFilePath": "D:\\project\\ExcelHelper\\YK1000\\ModelsLib\\ModelsLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\YK\\.nuget\\packages\\miniexcel\\1.29.0\\miniexcel.1.29.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+D:\project\ExcelHelper\YK1000\ExcelLib\bin\Debug\net6.0\ExcelLib.deps.json
+D:\project\ExcelHelper\YK1000\ExcelLib\bin\Debug\net6.0\ExcelLib.dll
+D:\project\ExcelHelper\YK1000\ExcelLib\bin\Debug\net6.0\ExcelLib.pdb
+D:\project\ExcelHelper\YK1000\ExcelLib\bin\Debug\net6.0\ModelsLib.dll
+D:\project\ExcelHelper\YK1000\ExcelLib\bin\Debug\net6.0\ModelsLib.pdb
+D:\project\ExcelHelper\YK1000\ExcelLib\obj\Debug\net6.0\ExcelLib.csproj.AssemblyReference.cache
+D:\project\ExcelHelper\YK1000\ExcelLib\obj\Debug\net6.0\ExcelLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\ExcelHelper\YK1000\ExcelLib\obj\Debug\net6.0\ExcelLib.AssemblyInfoInputs.cache
+D:\project\ExcelHelper\YK1000\ExcelLib\obj\Debug\net6.0\ExcelLib.AssemblyInfo.cs
+D:\project\ExcelHelper\YK1000\ExcelLib\obj\Debug\net6.0\ExcelLib.csproj.CoreCompileInputs.cache
+D:\project\ExcelHelper\YK1000\ExcelLib\obj\Debug\net6.0\ExcelLib.csproj.CopyComplete
+D:\project\ExcelHelper\YK1000\ExcelLib\obj\Debug\net6.0\ExcelLib.dll
+D:\project\ExcelHelper\YK1000\ExcelLib\obj\Debug\net6.0\refint\ExcelLib.dll
+D:\project\ExcelHelper\YK1000\ExcelLib\obj\Debug\net6.0\ExcelLib.pdb
+D:\project\ExcelHelper\YK1000\ExcelLib\obj\Debug\net6.0\ref\ExcelLib.dll

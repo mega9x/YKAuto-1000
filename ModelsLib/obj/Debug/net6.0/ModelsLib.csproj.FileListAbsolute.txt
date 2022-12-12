@@ -1,0 +1,12 @@
+D:\project\ExcelHelper\YK1000\ModelsLib\bin\Debug\net6.0\ModelsLib.deps.json
+D:\project\ExcelHelper\YK1000\ModelsLib\bin\Debug\net6.0\ModelsLib.dll
+D:\project\ExcelHelper\YK1000\ModelsLib\bin\Debug\net6.0\ModelsLib.pdb
+D:\project\ExcelHelper\YK1000\ModelsLib\obj\Debug\net6.0\ModelsLib.csproj.AssemblyReference.cache
+D:\project\ExcelHelper\YK1000\ModelsLib\obj\Debug\net6.0\ModelsLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\ExcelHelper\YK1000\ModelsLib\obj\Debug\net6.0\ModelsLib.AssemblyInfoInputs.cache
+D:\project\ExcelHelper\YK1000\ModelsLib\obj\Debug\net6.0\ModelsLib.AssemblyInfo.cs
+D:\project\ExcelHelper\YK1000\ModelsLib\obj\Debug\net6.0\ModelsLib.csproj.CoreCompileInputs.cache
+D:\project\ExcelHelper\YK1000\ModelsLib\obj\Debug\net6.0\ModelsLib.dll
+D:\project\ExcelHelper\YK1000\ModelsLib\obj\Debug\net6.0\refint\ModelsLib.dll
+D:\project\ExcelHelper\YK1000\ModelsLib\obj\Debug\net6.0\ModelsLib.pdb
+D:\project\ExcelHelper\YK1000\ModelsLib\obj\Debug\net6.0\ref\ModelsLib.dll

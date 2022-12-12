@@ -1,0 +1,96 @@
+﻿@using System.ComponentModel.DataAnnotations
+@using YK1000.Crawler
+@using YK1000.Crawler.Option
+
+<h3>测试视图</h3>
+<div class="container">
+    <div class="bytheway">
+        注意: 一定要安装了 Chrome 浏览器后再来使用该程序
+    </div>
+    <div>
+        工号 (作为保存文件名):
+        <input @bind="Id"/>
+    </div>
+    <div>
+        联盟:
+        <select @bind="Selected">
+            @foreach (var str in AllPlatform)
+            {
+                <option value=@str>@str</option>
+            }
+        </select>
+    </div>
+    <div>
+        账户 (登录账号名):
+        <input @bind="Account"/>
+    </div>
+    <div>
+        密码 (登录密码):
+        <input @bind="Password"/>
+    </div>
+    <div>
+        代理 IP 及端口:
+        <input @bind="IP"/>
+        <input @bind="Port"/>
+    </div>
+    <div>
+        流量源站点 (合作站点):
+        <input @bind="Source"/>
+    </div>
+    <button @onclick="Save">采集</button>
+    <textarea @bind="DEBUG"></textarea>
+</div>
+
+@code {
+    private static List<string> AllPlatform = new()
+    {
+        "CJ",
+    };
+
+    [Required]
+    private string Id { get; set; } = "YK00001";
+
+    [Required]
+    private string Account { get; set; } = "unchip986087@outlook.com";
+
+    [Required]
+    private string Password { get; set; } = "Qpkazwsxelc231_";
+
+    [Required]
+    private string IP { get; set; } = "127.0.0.1";
+
+    [Required]
+    private string Source { get; set; } = "12345";
+
+    private string Port { get; set; } = "40000";
+    private string Selected { get; set; } = AllPlatform[0];
+    private string DEBUG { get; set; } = "lalala";
+    
+    private IOption _option;
+    private void Save()
+    {
+        try
+        {
+            if (Id.Length <= 0 || Account.Length <= 0 || Password.Length <= 0 || IP.Length <= 0 || Source.Length <= 0)
+            {
+                return;
+            }
+            DEBUG = Selected;
+            _option = Selected switch
+            {
+                "CJ" => new CjOption(Account, Password, IP, Port),
+                _ => _option
+            };
+            var missionCrawler = new MissionCrawler(_option);
+            var mission = missionCrawler.GetMission();
+            foreach (var m in mission)
+            {
+                DEBUG += m;
+            }
+        }
+        catch(Exception e)
+        {
+            DEBUG = e.Message;
+        }
+    }
+}

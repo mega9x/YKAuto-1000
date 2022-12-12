@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "MiniExcel/1.29.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/MiniExcel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/MiniExcel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MiniExcel/1.29.0": {
+      "sha512": "/KD0qyqxsEeMDj+yrV44YZZ9k0ik6eLHxj3wVutSS8+3MNvJ9YaXaw/QHbDcA+UEdIbnBCkpOB9wUjaz/oDd+g==",
+      "type": "package",
+      "path": "miniexcel/1.29.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net45/MiniExcel.dll",
+        "lib/net5.0/MiniExcel.dll",
+        "lib/netstandard2.0/MiniExcel.dll",
+        "miniexcel.1.29.0.nupkg.sha512",
+        "miniexcel.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "MiniExcel >= 1.29.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\YK\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\project\\ExcelHelper\\YK1000\\ModelsLib\\ModelsLib.csproj",
+      "projectName": "ModelsLib",
+      "projectPath": "D:\\project\\ExcelHelper\\YK1000\\ModelsLib\\ModelsLib.csproj",
+      "packagesPath": "C:\\Users\\YK\\.nuget\\packages\\",
+      "outputPath": "D:\\project\\ExcelHelper\\YK1000\\ModelsLib\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\YK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "MiniExcel": {
+            "target": "Package",
+            "version": "[1.29.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

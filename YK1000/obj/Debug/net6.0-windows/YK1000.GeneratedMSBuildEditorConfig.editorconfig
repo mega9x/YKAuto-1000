@@ -1,0 +1,31 @@
+is_global = true
+build_property.ApplicationManifest = 
+build_property.StartupObject = 
+build_property.ApplicationDefaultFont = 
+build_property.ApplicationHighDpiMode = 
+build_property.ApplicationUseCompatibleTextRendering = 
+build_property.ApplicationVisualStyles = 
+build_property.TargetFramework = net6.0-windows
+build_property.TargetPlatformMinVersion = 7.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = YK1000
+build_property.RootNamespace = YK1000
+build_property.ProjectDir = D:\project\ExcelHelper\YK1000\YK1000\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\project\ExcelHelper\YK1000\YK1000
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/project/ExcelHelper/YK1000/YK1000/Views/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/ExcelHelper/YK1000/YK1000/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
