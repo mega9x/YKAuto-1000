@@ -69,3 +69,6 @@ D:\project\ExcelHelper\YK1000\YK1000\bin\Debug\net6.0-windows\ThoughtWorks.Selen
 D:\project\ExcelHelper\YK1000\YK1000\bin\Debug\net6.0-windows\WebDriver.Support.dll
 D:\project\ExcelHelper\YK1000\YK1000\bin\Debug\net6.0-windows\WebDriver.dll
 D:\project\ExcelHelper\YK1000\YK1000\bin\Debug\net6.0-windows\OpenQA.Selenium.Chrome.ChromeDriverExtensions.dll
+D:\project\ExcelHelper\YK1000\YK1000\bin\Debug\net6.0-windows\SeleniumExtras.WaitHelpers.dll
+D:\project\ExcelHelper\YK1000\YK1000\bin\Debug\net6.0-windows\Crawler.dll
+D:\project\ExcelHelper\YK1000\YK1000\bin\Debug\net6.0-windows\Crawler.pdb

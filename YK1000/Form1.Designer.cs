@@ -29,7 +29,7 @@ partial class Form1
     /// </summary>
     private void InitializeComponent()
     {
-            this.webView = new Microsoft.AspNetCore.Components.WebView.WindowsForms.BlazorWebView();
+        this.webView = new Microsoft.AspNetCore.Components.WebView.WindowsForms.BlazorWebView();
             this.SuspendLayout();
             // 
             // webView
@@ -50,7 +50,6 @@ partial class Form1
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
-
     }
 
     #endregion

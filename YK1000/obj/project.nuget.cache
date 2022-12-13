@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Q5FD9tBcWRnsoELoKcFDiAYWNEOtLb3B8HSsjW/4Vyd2StxNRNjZUn6Nyv6uMOVmgokmdN7iTRcOBTM0gGaUmQ==",
+  "dgSpecHash": "SKPmUqafqzohXksVN+gWMJajqfRgoyHeNC8JmDUNocupXWssP6RjDdBKxehBxR9Ro4z2jsIQMB/YDfDWk7jx9w==",
   "success": true,
   "projectFilePath": "D:\\project\\ExcelHelper\\YK1000\\YK1000\\YK1000.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\YK\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "C:\\Users\\YK\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.8\\microsoft.aspnetcore.authorization.6.0.8.nupkg.sha512",
     "C:\\Users\\YK\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.8\\microsoft.aspnetcore.components.6.0.8.nupkg.sha512",
     "C:\\Users\\YK\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.8\\microsoft.aspnetcore.components.analyzers.6.0.8.nupkg.sha512",
@@ -48,7 +49,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Selenium.RC 3.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net6.0-windows7.0”还原包“Selenium.RC 3.1.0”。此包可能与项目不完全兼容。",
       "libraryId": "Selenium.RC",
       "targetGraphs": [
         "net6.0-windows7.0"

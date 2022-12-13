@@ -1,6 +1,6 @@
 ﻿using OpenQA.Selenium;
 
-namespace YK1000.Crawler.CustomBrowser;
+namespace Crawler.CustomBrowser;
 
 public interface IBrowser
 {

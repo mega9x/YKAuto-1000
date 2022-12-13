@@ -16,14 +16,30 @@ namespace ModelsLib
         public string Password { get; set; }
         [ExcelColumnName(SITE)] 
         public string Site { get; set; }
-        [ExcelColumnName(IP)] 
-        public string Ip { get; set; }
+        [ExcelColumnName(STATE)] 
+        public string State { get; set; }
         [ExcelColumnName(TITLE)] 
         public string Title { get; set; }
         [ExcelColumnName(CODE)]
         public string Code { get; set; }
         [ExcelColumnName(DATE)]
         public string Date { get; set; }
+
+        public MissionModel()
+        {
+            Date = DateTime.Now.Date.ToString();
+        }
+
+        public MissionModel(InputModel input, string title, string code)
+        {
+            Account = input.Account;
+            Password = input.Password;
+            Site = input.Site;
+            State = input.State;
+            Title = title;
+            Code = code;
+            Date = DateTime.Now.Date.ToString();
+        }
 
         public override bool Equals(object? model)
         {

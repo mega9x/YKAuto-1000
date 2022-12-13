@@ -16,7 +16,7 @@ public partial class Form1 : Form
         InitializeComponent();
         var services = new ServiceCollection();
         services.AddWindowsFormsBlazorWebView();
-        webView.HostPage = "wwwroot\\index.html";
+        webView.HostPage = Path.Combine(Application.StartupPath, "wwwroot", "index.html");
         webView.Services = services.BuildServiceProvider();
         webView.RootComponents.Add<App>("#app");
     }

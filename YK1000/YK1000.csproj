@@ -9,6 +9,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
       <PackageReference Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" Version="6.0.547" />
       <PackageReference Include="OpenQA.Selenium.Chrome.ChromeDriverExtensions" Version="1.2.0" />
       <PackageReference Include="Selenium.RC" Version="3.1.0" />
@@ -18,12 +19,9 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Crawler\Crawler.csproj" />
       <ProjectReference Include="..\ExcelLib\ExcelLib.csproj" />
       <ProjectReference Include="..\ModelsLib\ModelsLib.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="wwwroot\script" />
     </ItemGroup>
 
 </Project>
